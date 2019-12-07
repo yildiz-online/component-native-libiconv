@@ -6,6 +6,9 @@ make
 
 r1=$?
 
+cd /src/src/main/c++/lib/.libs
+ls -l
+
 mkdir -p /src/target/classes/win64/lib
 mkdir -p /src/target/classes/win64/include
 
